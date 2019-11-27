@@ -14,6 +14,7 @@ function groupAnimals(arr){
         }
 
     }
+    //sort
     for (i = 0; i<arrBaru.length;i++){
         for(j=0;j<arrBaru.length-i-1;j++){
             if(arrBaru[j]> arrBaru[j+1]){
