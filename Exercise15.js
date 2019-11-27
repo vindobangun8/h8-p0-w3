@@ -4,7 +4,7 @@ function groupAnimals(arr){
         masuk = false
         tmp = [arr[i]]
         for(j=0;j<arrBaru.length;j++){
-            if(tmp[0][0] == arrBaru[j][0][0]){
+            if(arr[i][0] == arrBaru[j][0][0]){
                 arrBaru[j].push(arr[i])
                 masuk = true
             }   
